@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Big Shoulders Display', cursive;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;
     font-family: 'Lexend Deca', sans-serif;
     Font-size: 15px;
 
@@ -20,7 +20,8 @@ p{
 h2{color:hsl(0, 0%, 95%); 
 text-transform: uppercase;
 margin:30px 0 30px 0;
-font-size:30px;}
+font-size:30px;
+font-family: 'Big Shoulders Display', cursive; }
 
 button{
     background-color:hsl(0, 0%, 95%);
